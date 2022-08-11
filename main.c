@@ -2,6 +2,7 @@
 #include "headerfiles.h"
 void prepareMeal(int);
 int main(void){
+	// Hello
 	DDRD=0xF4;
 	LCD_Init();_delay_ms(50);
 	ADC_Init();
